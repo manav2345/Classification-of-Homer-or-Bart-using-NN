@@ -1,15 +1,26 @@
-# Classification-of-Homer-or-Bart-using-NN
-## About Dataset
-### Context
-As a big Simpsons fan, I have watched a lot (and still watching) of The Simpson episodes -multiple times each- over the years. I wanted to build a neural network which can recognize characters. I chose from the two most likeable characters Bart and Homer.
+# Neural Networks Homer and Bart Classification
 
-### Content
-This is an image dataset: 2 folders (one for each character) with 196-73 pictures from training and test.
+A TensorFlow-based neural network project for classifying images of "Homer" and "Bart." This repository provides a deep learning model capable of distinguishing between these two characters using convolutional neural networks (CNNs) and transfer learning. 
 
-### Acknowledgements
-Data is directly taken and labeled from TV show episodes.
+---
 
-### Inspiration
-So that the community and I can test your machine learning and deep learning skills with Convolutional Neural Network (CNN).
+## Project Features
 
-Homer's Quotes: People invent statistics to prove anything. 14% of people know this.
+- **Data Preprocessing**:  
+  Includes scripts to handle, clean, and preprocess images of Homer and Bart to prepare them for model training.
+
+- **Model Architecture**:  
+  Configurable CNN layers, optimized for character classification tasks with high accuracy.
+
+- **Training and Evaluation**:  
+  Training scripts with performance metrics and evaluation functions for real-time performance monitoring.
+
+- **Pretrained Model**:  
+  Downloadable model weights for direct usage or further fine-tuning on similar character datasets.
+
+- **Usage Examples**:  
+  Quick-start examples for loading the model and running character classification on new images.
+
+---
+
+This project is ideal for researchers, developers, and fans interested in exploring image classification with a fun, character-based dataset.
